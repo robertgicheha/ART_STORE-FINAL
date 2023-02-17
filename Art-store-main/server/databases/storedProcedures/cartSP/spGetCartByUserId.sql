@@ -1,0 +1,7 @@
+CREATE PROC spGetCartByUserId(@uId VARCHAR(255))
+AS
+BEGIN
+    SELECT * FROM CART
+    WHERE userId = @uId
+END
+GO

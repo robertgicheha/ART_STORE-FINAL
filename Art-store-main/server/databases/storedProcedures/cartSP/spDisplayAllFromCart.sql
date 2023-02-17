@@ -1,0 +1,5 @@
+CREATE PROCEDURE spDisplayAllFromCart
+AS
+BEGIN
+    SELECT * FROM Cart
+END

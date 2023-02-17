@@ -1,0 +1,176 @@
+/* header styling*/
+.header {
+    display: flex;
+    flex-direction: column;
+}
+
+.details-container {
+    display: flex;
+    justify-content: space-around;
+    background: #000000;
+    padding: 1em;
+    color: rgb(255, 255, 255);
+}
+
+.right, .left {
+    display: flex;
+    gap: 2em;
+}
+
+.right a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.navigation{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: .2em;
+    align-items: center;
+}
+
+.logo {
+    font-size: 2em;
+    font-weight: 900;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    max-width: 30%;
+}
+
+.nav-container {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+} 
+
+.nav-bar {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+
+.nav-bar ul, a {
+    text-decoration: none;
+    list-style: none;
+    color: #000000;
+}
+
+.nav-bar ul {
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+    justify-content: space-around;
+    width: 70%;
+    margin: .6em;
+}
+
+.search-bar{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: .2em;
+}
+
+.search-bar input {
+    width: 40%;
+    padding: .6em;
+    border-radius: 5em;
+    outline: none;
+    background: #62eaff;
+    border: .1em solid #212121;
+}
+
+/* end header styling */
+
+#content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:60px;
+}
+  /* First div at the top */
+#top{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #cccc;
+    width: 100%;
+}
+/* Second div containing form,button and links */
+
+#sign{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #cccc;
+    width: 700px;
+    border-radius: 7px;
+    padding: 30px;
+    margin-bottom: 5em;
+
+}
+
+/* the sign-up form */
+form{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    gap: 40px;     
+}
+
+form input {
+    height: 30px;
+}
+
+/* Sign in button */
+.signin{
+    height: 30px;
+    width: 100px;
+    border: 0.5em;
+    border-radius: 7px;
+    background-color: rgba(35, 166, 240, 255);   
+}
+
+
+/* links */
+#buttns{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+/* begin footer styling */
+.footer {
+    color: #efefef;
+    background: #000000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1em;
+    gap: .8em;
+}
+
+.footer-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 5em;
+}
+
+.follow-us {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 1em;
+}
+
+.follow-us i {
+    font-size: 2em;
+}

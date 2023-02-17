@@ -1,0 +1,102 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  nav {
+    background-color: #ccc;
+    float: left;
+    width: 20%;
+    height: 600px;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav a {
+    display: block;
+    color: #333;
+    padding: 20px;
+    text-decoration: none;
+  }
+  
+  main {
+    float: left;
+    width: 60%;
+    padding: 20px;
+  }
+  
+  .content{
+    display: flex;
+    gap: 40px;
+    justify-content: space-between;
+  }
+  
+  .products{
+    border: 2px solid black;
+    height: 500px;
+    width: 400px;
+    padding: 2px;
+  
+  }
+  .Orders{
+    border: 2px solid black;
+    height: 500px;
+    width: 400px;
+    padding: 2px;
+  
+  }
+  .Customers{
+    border: 2px solid black;
+    height: 500px;
+    width: 400px;
+    padding: 2px;
+  
+  }
+  .h3{
+    padding-left: 2px;
+    margin-left: 2px;
+  }
+  
+  /* .icon{
+    width: ;
+    height: ;
+  } */
+  .buttons{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    gap: 10px;
+  }
+
+  /* all butons butoons styling */
+  .buttons button,
+  .buttons_product button {
+    height:3em;
+  }
+
+  .buttons_product{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 10px;
+  }
+
+  .shop button {
+    width: 28em;
+    height: 3em;
+    margin: 20px;
+    cursor: pointer;
+    margin-left: 25%
+  }

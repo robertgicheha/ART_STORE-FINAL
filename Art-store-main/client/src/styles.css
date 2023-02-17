@@ -1,0 +1,237 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+/* header styling*/
+.header {
+    display: flex;
+    flex-direction: column;
+}
+
+.details-container {
+    display: flex;
+    justify-content: space-around;
+    background: #000000;
+    padding: 1em;
+    color: rgb(255, 255, 255);
+}
+
+.right, .left {
+    display: flex;
+    gap: 2em;
+}
+
+.right a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.navigation{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: .2em;
+    align-items: center;
+}
+
+.logo {
+    font-size: 2em;
+    font-weight: 900;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    max-width: 30%;
+}
+
+.nav-container {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+} 
+
+.nav-bar {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+
+.nav-bar ul, a {
+    text-decoration: none;
+    list-style: none;
+    color: #000000;
+}
+
+.nav-bar ul {
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+    justify-content: space-around;
+    width: 70%;
+    margin: .6em;
+}
+
+.search-bar{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: .2em;
+}
+
+.search-bar input {
+    width: 40%;
+    padding: .6em;
+    border-radius: 5em;
+    outline: none;
+    background: #62eaff;
+    border: .1em solid #212121;
+}
+
+/* carousel section */
+
+.carousel {
+    height: 100vh;
+    background: url('https://cdn.shopify.com/s/files/1/0108/3038/1113/files/handi-mart-2_2d02339f-c689-493b-ab45-fb77c5c42756.jpg?v=1613191044');
+}
+
+/* cards/shop-now  section */
+.shop-now {
+    /* height: 60vh; */
+    display: flex;
+}
+
+.card{
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+    text-align: center;
+    border: .1px solid #efefef;
+    padding-bottom: 3em;
+    border-radius: 1em;
+}
+
+.card-btn {
+    width: 80%;
+}
+
+.card-btn button {
+    padding: .6em;
+    border-radius: 20px;
+    width: 100%;
+    border: .2em solid #62eaff;
+    background: transparent;
+}
+
+.content p {
+    font-size: 13px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 1em;
+}
+.card-btn #white {
+    color: #ffffff;
+}
+
+.black {
+    background: #000000;
+    color: #ffffff;;
+}
+
+.card-img-container {
+    height: 300px;
+    width: 250px;
+}
+
+.card-img-container > img {
+    height: 100%;
+    width: 100%;
+}
+
+/* end cards */
+
+/* begin new arrivals */
+.new-arrivals {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 3em;
+}
+
+.arrivals-heading {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.btns-container {
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+}
+
+.btns-container button {
+    padding: 1em;
+    background: #ffffff;
+    border:.2em solid #62eaff;
+}
+
+#active {
+    background: #62eaff;
+    color: #ffffff;
+}
+
+.arrival-card-container {
+    display: flex;
+    justify-content: center;
+    gap: 6em;
+    padding: 1em;
+}
+
+.arrival-card .img-container {
+    width: 200px;
+    height: 300px;
+    margin: 1em;
+}
+
+.img-container > img {
+    height: 100%;
+    width: 100%;
+}
+/* End new arrivals */
+
+
+/* begin footer styling */
+.footer {
+    color: #efefef;
+    background: #000000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1em;
+    gap: .8em;
+}
+
+.footer-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 5em;
+}
+
+.follow-us {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 1em;
+}
+
+.follow-us i {
+    font-size: 2em;
+}
+
+/* end footer styling */
+
+

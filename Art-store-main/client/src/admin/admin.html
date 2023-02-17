@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Admin Dashboard</title>
+    <link rel="stylesheet" type="text/css" href="admin.css">
+</head>
+
+<body>
+    <header>
+        <h1>Admin Dashboard</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#">Dashboard</a></li>
+            <li><a href="addProduct.html">Products</a></li>
+            <li><a href="UpdateOrder/order.html">Orders</a></li>
+            <li><a href="#">Customers</a></li>
+            <li><a href="#">Reports</a></li>
+            <li><a href="#">Settings</a></li>
+        </ul>
+    </nav>
+    <main>
+        <div class="content">
+            <div class="products">
+                <h3 class="Products">Products</h3>
+                <div class="icon">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSMT5i8ggKN1gyFSduFlVnHbv7zf1BhnM26A&usqp=CAU" alt="">
+                </div>
+                <div class="buttons_product">
+                    <button onclick="location.href='productsForm.html';" id="addproduct_btn">Add Product</button>
+                    <button id="displayall_btn">Display All</button>
+                    <button id="updateproduct_btn">Update</button>
+                </div>
+
+
+            </div>
+            <div class="Orders">
+                <h3 class="orders">Orders</h3>
+                <div class="icon">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyeHH3xzlAqz39D1i7V_lHFvZdAkl5TyON_g&usqp=CAU" alt="">
+                </div>
+                <div class="buttons">
+                    <button id="updateorders_btn">Update order status</button>
+                    <button id="manageorders_btn">List Orders</button>
+                </div>
+
+
+
+
+            </div>
+            <div class="Customers">
+                <h3 class="customers">Customers</h3>
+                <div class="icon">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRUWO5uZtWBL0yGZEXhA5zXWn1HN_3QDDS7OPRqh-fdZdM1eM7a4_EzhWbPhJvFfwlnRE&usqp=CAU" alt="">
+                </div>
+                <div class="buttons">
+                    <button id="adduser_btn">List Users</button>
+                    <button id="adduser_btn">Deactivate User</button>
+                </div>
+
+            </div>
+        </div>
+    </main>
+    <div class="shop">
+        <button onclick="location.href='../index.html';">SHOP</button>
+    </div>
+
+
+</body>
+<script src="/dist/index.js"></script>
+
+</html>

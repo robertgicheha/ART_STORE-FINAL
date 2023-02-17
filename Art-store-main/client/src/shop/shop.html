@@ -1,0 +1,933 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ARTZ Art Store</title>
+
+  <link rel="stylesheet" href="shop.css" />
+</head>
+
+<body>
+
+  <!-- HEADER YA IAN -->
+
+  <div class="header">
+    <div class="details-container">
+        <div class="left">
+            <p>+254-70080080</p>
+            <p>someone@gmail.com</p>
+        </div>
+        <div class="right">
+            <a href="#">sign-in</a>
+            <a href="#">Your-cart [1]</a>
+        </div>
+    </div>
+    <div class="navigation">
+        <div class="logo">@ART</div>
+        <div class="nav-container">
+          <div class="nav-bar">
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../shop/shop.html">Shop</a></li>
+                <li><a href="../cart/cart.html">cart</a></li>
+                <li><a href="../register/register.html">Register</a></li>
+                <li><a href="../login/login.html">login</a></li>
+            </ul>
+
+        </div>
+            <div class="search-bar">
+                <input type="text" id="search" placeholder="SEARCH">
+            </div>
+        </div>
+    </div>  
+</div>
+  <nav class="breadcrumb text-center" aria-label="breadcrumbs">
+    <div class="container">
+
+
+      <h1>Collection</h1>
+      <a href="/" title="Back to the frontpage">Home</a>
+
+      <span aria-hidden="true" class="breadcrumb__sep">/</span>
+
+      <span>Products</span>
+
+
+
+
+    </div>
+  </nav>
+  <main>
+
+
+    <!--
+      - PRODUCT
+    -->
+
+    <div class="product-container">
+      <div class="container">
+        <!--
+          - SIDEBAR
+        -->
+
+        <div class="sidebar has-scrollbar" data-mobile-menu>
+          <div class="sidebar-category">
+            <div class="sidebar-top">
+              <h2 class="sidebar-title">Category</h2>
+
+
+            </div>
+
+            <ul class="sidebar-menu-category-list">
+              <li class="sidebar-menu-category">
+                <button class="sidebar-accordion-menu" data-accordion-btn>
+                  <div class="menu-title-flex">
+
+
+                    <p class="menu-title">Painting</p>
+                  </div>
+
+
+                </button>
+
+
+              </li>
+
+              <li class="sidebar-menu-category">
+                <button class="sidebar-accordion-menu" data-accordion-btn>
+                  <div class="menu-title-flex">
+
+
+                    <p class="menu-title">Photography</p>
+                  </div>
+
+
+
+                </button>
+              </li>
+
+              <li class="sidebar-menu-category">
+                <button class="sidebar-accordion-menu" data-accordion-btn>
+                  <div class="menu-title-flex">
+
+
+                    <p class="menu-title">Sculptures</p>
+                  </div>
+
+
+
+                </button>
+
+              </li>
+
+              <li class="sidebar-menu-category">
+                <button class="sidebar-accordion-menu" data-accordion-btn>
+                  <div class="menu-title-flex">
+
+                    <p class="menu-title">Accessories</p>
+                  </div>
+
+
+                </button>
+
+
+              </li>
+
+
+
+            </ul>
+          </div>
+          <div class="sidebar-category">
+            <div class="sidebar-top">
+              <h2 class="sidebar-title">Shop by Price</h2>
+
+
+            </div>
+
+            <ul class="sidebar-menu-category-list">
+              <li class="sidebar-menu-category">
+                <button class="sidebar-accordion-menu" data-accordion-btn>
+                  <div class="menu-title-flex">
+
+
+                    <p class="menu-title">100-200</p>
+                  </div>
+                </button>
+
+
+              </li>
+
+              <li class="sidebar-menu-category">
+                <button class="sidebar-accordion-menu" data-accordion-btn>
+                  <div class="menu-title-flex">
+
+
+                    <p class="menu-title">200-300</p>
+                  </div>
+                </button>
+              </li>
+
+              <li class="sidebar-menu-category">
+                <button class="sidebar-accordion-menu" data-accordion-btn>
+                  <div class="menu-title-flex">
+
+                    <p class="menu-title">300-500</p>
+                  </div>
+
+
+                </button>
+
+              </li>
+              <li class="sidebar-menu-category">
+                <button class="sidebar-accordion-menu" data-accordion-btn>
+                  <div class="menu-title-flex">
+
+
+                    <p class="menu-title">500-700</p>
+                  </div>
+
+                </button>
+
+              </li>
+              <li class="sidebar-menu-category">
+                <button class="sidebar-accordion-menu" data-accordion-btn>
+                  <div class="menu-title-flex">
+
+
+                    <p class="menu-title">700-1000</p>
+                  </div>
+
+
+                </button>
+
+              </li>
+              <li class="sidebar-menu-category">
+                <button class="sidebar-accordion-menu" data-accordion-btn>
+                  <div class="menu-title-flex">
+
+
+                    <p class="menu-title">1000-1200</p>
+                  </div>
+
+                  <div>
+
+                </button>
+
+              </li>
+              <li class="sidebar-menu-category">
+                <button class="sidebar-accordion-menu" data-accordion-btn>
+                  <div class="menu-title-flex">
+
+
+                    <p class="menu-title">1200-1500</p>
+                  </div>
+
+
+                </button>
+
+              </li>
+              <li class="sidebar-menu-category">
+                <button class="sidebar-accordion-menu" data-accordion-btn>
+                  <div class="menu-title-flex">
+
+
+                    <p class="menu-title">1500-2000</p>
+                  </div>
+
+
+                </button>
+
+              </li>
+
+
+            </ul>
+          </div>
+
+          <div class="product-showcase">
+            <h3 class="showcase-heading">best sellers</h3>
+
+            <div class="showcase-wrapper">
+              <div class="showcase-container">
+                <div class="showcase">
+                  <a href="#" class="showcase-img-box">
+
+                  </a>
+
+                  <div class="showcase-content">
+                    <a href="#">
+                      <h4 class="showcase-title">wooden</h4>
+                    </a>
+
+                    <div class="showcase-rating">
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                    </div>
+
+                    <div class="price-box">
+
+                      <p class="price">$4.00</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="showcase">
+                  <a href="#" class="showcase-img-box">
+
+                  </a>
+
+                  <div class="showcase-content">
+                    <a href="#">
+                      <h4 class="showcase-title">clay</h4>
+                    </a>
+                    <!-- <img src="./images/1.avif" alt="Ancient Shoot Gun" width="300" class="product-img default">
+                  <img src="./images/1.avif" alt="Ancient Shoot Gun" width="300" class="product-img hover"> -->
+                    <div class="showcase-rating">
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star-half-outline"></ion-icon>
+                    </div>
+
+                    <div class="price-box">
+
+                      <p class="price">$7.00</p>
+                    </div>
+                  </div>
+
+                </div>
+
+                <div class="showcase">
+                  <a href="#" class="showcase-img-box">
+
+                  </a>
+
+                  <div class="showcase-content">
+                    <a href="#">
+                      <h4 class="showcase-title">Sculpture</h4>
+                    </a>
+                    <div class="showcase-rating">
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star-half-outline"></ion-icon>
+                    </div>
+
+                    <div class="price-box">
+
+                      <p class="price">$3.00</p>
+                    </div>
+                  </div>
+                </div>
+
+
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="product-box">
+
+          <!--
+            - PRODUCT GRID
+          -->
+
+          <div class="product-main">
+            <h2 class="title">Collections</h2>
+
+            <div class="product-grid">
+              <div class="showcase">
+                <div class="showcase-banner">
+                  <img src="./images/1.avif" alt="Ancient Shoot Gun" width="500" class="product-img default">
+
+                  <img src="./images/1.avif" alt="Ancient Shoot Gun" width="500" class="product-img hover" />
+
+
+
+                  <div class="showcase-actions">
+                    <button class="btn-action">
+                      <ion-icon name="heart-outline"></ion-icon>
+                    </button>
+
+                    <button class="btn-action">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </button>
+
+                    <button class="btn-action">
+                      <ion-icon name="repeat-outline"></ion-icon>
+                    </button>
+
+                    <button class="btn-action">
+                      <ion-icon name="bag-add-outline"></ion-icon>
+                    </button>
+                  </div>
+                </div>
+
+                <div class="showcase-content">
+                  <a href="#" class="showcase-category">Scalpture</a>
+
+                  <div class="showcase-rating">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star-outline"></ion-icon>
+                    <ion-icon name="star-outline"></ion-icon>
+                  </div>
+
+                  <div class="price-box">
+                    <p class="price">$48.00</p>
+
+                  </div>
+                </div>
+              </div>
+
+              <div class="showcase">
+                <div class="showcase-banner">
+
+                  <img src="./images/1.avif" alt="Ancient Shoot Gun" width="500" class="product-img default">
+
+                  <img src="./images/1.avif" alt="Ancient Shoot Gun" width="500" class="product-img hover" />
+
+
+
+
+                  <div class="showcase-actions">
+                    <button class="btn-action">
+                      <ion-icon name="heart-outline"></ion-icon>
+                    </button>
+
+                    <button class="btn-action">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </button>
+
+                    <button class="btn-action">
+                      <ion-icon name="repeat-outline"></ion-icon>
+                    </button>
+
+                    <button class="btn-action">
+                      <ion-icon name="bag-add-outline"></ion-icon>
+                    </button>
+                  </div>
+                </div>
+
+                <div class="showcase-content">
+                  <a href="#" class="showcase-category">clay</a>
+
+
+
+                  <div class="showcase-rating">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star-outline"></ion-icon>
+                    <ion-icon name="star-outline"></ion-icon>
+                  </div>
+
+                  <div class="price-box">
+                    <p class="price">$45.00</p>
+
+                  </div>
+                </div>
+              </div>
+
+              <div class="showcase">
+                <div class="showcase-banner">
+
+                  <img src="./images/1.avif" alt="Ancient Shoot Gun" width="500" class="product-img default">
+
+                  <img src="./images/1.avif" alt="Ancient Shoot Gun" width="500" class="product-img hover" />
+
+
+                  <div class="showcase-actions">
+                    <button class="btn-action">
+                      <ion-icon name="heart-outline"></ion-icon>
+                    </button>
+
+                    <button class="btn-action">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </button>
+
+                    <button class="btn-action">
+                      <ion-icon name="repeat-outline"></ion-icon>
+                    </button>
+
+                    <button class="btn-action">
+                      <ion-icon name="bag-add-outline"></ion-icon>
+                    </button>
+                  </div>
+                </div>
+
+                <div class="showcase-content">
+                  <a href="#" class="showcase-category">Art</a>
+
+
+
+                  <div class="showcase-rating">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star-outline"></ion-icon>
+                    <ion-icon name="star-outline"></ion-icon>
+                  </div>
+
+                  <div class="price-box">
+                    <p class="price">$58.00</p>
+
+                  </div>
+                </div>
+              </div>
+
+              <div class="showcase">
+                <div class="showcase-banner">
+
+                  <img src="./images/1.avif" alt="Ancient Shoot Gun" width="500" class="product-img default">
+
+                  <img src="./images/1.avif" alt="Ancient Shoot Gun" width="500" class="product-img hover" />
+
+
+                  <div class="showcase-actions">
+                    <button class="btn-action">
+                      <ion-icon name="heart-outline"></ion-icon>
+                    </button>
+
+                    <button class="btn-action">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </button>
+
+                    <button class="btn-action">
+                      <ion-icon name="repeat-outline"></ion-icon>
+                    </button>
+
+                    <button class="btn-action">
+                      <ion-icon name="bag-add-outline"></ion-icon>
+                    </button>
+                  </div>
+                </div>
+
+                <div class="showcase-content">
+                  <a href="#" class="showcase-category">model</a>
+
+
+
+                  <div class="showcase-rating">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                  </div>
+
+                  <div class="price-box">
+                    <p class="price">$25.00</p>
+
+                  </div>
+                </div>
+              </div>
+
+              <div class="showcase">
+                <div class="showcase-banner">
+
+                  <img src="./images/1.avif" alt="Ancient Shoot Gun" width="500" class="product-img default">
+
+                  <img src="./images/1.avif" alt="Ancient Shoot Gun" width="500" class="product-img hover" />
+
+                  <div class="showcase-actions">
+                    <button class="btn-action">
+                      <ion-icon name="heart-outline"></ion-icon>
+                    </button>
+
+                    <button class="btn-action">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </button>
+
+                    <button class="btn-action">
+                      <ion-icon name="repeat-outline"></ion-icon>
+                    </button>
+
+                    <button class="btn-action">
+                      <ion-icon name="bag-add-outline"></ion-icon>
+                    </button>
+                  </div>
+                </div>
+
+                <div class="showcase-content">
+                  <a href="#" class="showcase-category">new</a>
+
+
+
+                  <div class="showcase-rating">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                  </div>
+
+                  <div class="price-box">
+                    <p class="price">$99.00</p>
+
+                  </div>
+                </div>
+              </div>
+
+              <div class="showcase">
+                <div class="showcase-banner">
+
+                  <img src="./images/1.avif" alt="Ancient Shoot Gun" width="500" class="product-img default">
+
+                  <img src="./images/1.avif" alt="Ancient Shoot Gun" width="500" class="product-img hover" />
+
+
+                  <div class="showcase-actions">
+                    <button class="btn-action">
+                      <ion-icon name="heart-outline"></ion-icon>
+                    </button>
+
+                    <button class="btn-action">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </button>
+
+                    <button class="btn-action">
+                      <ion-icon name="repeat-outline"></ion-icon>
+                    </button>
+
+                    <button class="btn-action">
+                      <ion-icon name="bag-add-outline"></ion-icon>
+                    </button>
+                  </div>
+                </div>
+
+                <div class="showcase-content">
+                  <a href="#" class="showcase-category">art</a>
+
+
+
+                  <div class="showcase-rating">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star-outline"></ion-icon>
+                    <ion-icon name="star-outline"></ion-icon>
+                  </div>
+
+                  <div class="price-box">
+                    <p class="price">$150.00</p>
+
+                  </div>
+                </div>
+              </div>
+
+              <div class="showcase">
+                <div class="showcase-banner">
+
+                  <img src="./images/1.avif" alt="Ancient Shoot Gun" width="500" class="product-img default">
+
+                  <img src="./images/1.avif" alt="Ancient Shoot Gun" width="500" class="product-img hover" />
+
+                  <div class="showcase-actions">
+                    <button class="btn-action">
+                      <ion-icon name="heart-outline"></ion-icon>
+                    </button>
+
+                    <button class="btn-action">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </button>
+
+                    <button class="btn-action">
+                      <ion-icon name="repeat-outline"></ion-icon>
+                    </button>
+
+                    <button class="btn-action">
+                      <ion-icon name="bag-add-outline"></ion-icon>
+                    </button>
+                  </div>
+                </div>
+
+                <div class="showcase-content">
+                  <a href="#" class="showcase-category">art</a>
+
+
+
+                  <div class="showcase-rating">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star-outline"></ion-icon>
+                  </div>
+
+                  <div class="price-box">
+                    <p class="price">$100.00</p>
+
+                  </div>
+                </div>
+              </div>
+
+              <div class="showcase">
+                <div class="showcase-banner">
+
+                  <img src="./images/1.avif" alt="Ancient Shoot Gun" width="500" class="product-img default">
+
+                  <img src="./images/1.avif" alt="Ancient Shoot Gun" width="500" class="product-img hover" />
+
+
+                  <div class="showcase-actions">
+                    <button class="btn-action">
+                      <ion-icon name="heart-outline"></ion-icon>
+                    </button>
+
+                    <button class="btn-action">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </button>
+
+                    <button class="btn-action">
+                      <ion-icon name="repeat-outline"></ion-icon>
+                    </button>
+
+                    <button class="btn-action">
+                      <ion-icon name="bag-add-outline"></ion-icon>
+                    </button>
+                  </div>
+                </div>
+
+                <div class="showcase-content">
+                  <a href="#" class="showcase-category">art</a>
+
+
+
+                  <div class="showcase-rating">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star-outline"></ion-icon>
+                    <ion-icon name="star-outline"></ion-icon>
+                  </div>
+
+                  <div class="price-box">
+                    <p class="price">$25.00</p>
+
+                  </div>
+                </div>
+              </div>
+
+              <div class="showcase">
+                <div class="showcase-banner">
+
+                  <img src="./images/1.avif" alt="Ancient Shoot Gun" width="500" class="product-img default">
+
+                  <img src="./images/1.avif" alt="Ancient Shoot Gun" width="500" class="product-img hover" />
+
+                  <div class="showcase-actions">
+                    <button class="btn-action">
+                      <ion-icon name="heart-outline"></ion-icon>
+                    </button>
+
+                    <button class="btn-action">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </button>
+
+                    <button class="btn-action">
+                      <ion-icon name="repeat-outline"></ion-icon>
+                    </button>
+
+                    <button class="btn-action">
+                      <ion-icon name="bag-add-outline"></ion-icon>
+                    </button>
+                  </div>
+                </div>
+
+                <div class="showcase-content">
+                  <a href="#" class="showcase-category">art</a>
+
+
+
+                  <div class="showcase-rating">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star-outline"></ion-icon>
+                  </div>
+
+                  <div class="price-box">
+                    <p class="price">$32.00</p>
+
+                  </div>
+                </div>
+              </div>
+
+              <div class="showcase">
+                <div class="showcase-banner">
+                  <img src="./images/1.avif" alt="Ancient Shoot Gun" width="500" class="product-img default">
+
+                  <img src="./images/1.avif" alt="Ancient Shoot Gun" width="500" class="product-img hover" />
+
+
+                  <div class="showcase-actions">
+                    <button class="btn-action">
+                      <ion-icon name="heart-outline"></ion-icon>
+                    </button>
+
+                    <button class="btn-action">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </button>
+
+                    <button class="btn-action">
+                      <ion-icon name="repeat-outline"></ion-icon>
+                    </button>
+
+                    <button class="btn-action">
+                      <ion-icon name="bag-add-outline"></ion-icon>
+                    </button>
+                  </div>
+                </div>
+
+                <div class="showcase-content">
+                  <a href="#" class="showcase-category">srt</a>
+
+
+
+                  <div class="showcase-rating">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star-outline"></ion-icon>
+                    <ion-icon name="star-outline"></ion-icon>
+                  </div>
+
+                  <div class="price-box">
+                    <p class="price">$58.00</p>
+
+                  </div>
+                </div>
+              </div>
+
+              <div class="showcase">
+                <div class="showcase-banner">
+
+                  <img src="./images/1.avif" alt="Ancient Shoot Gun" width="500" class="product-img default">
+
+                  <img src="./images/1.avif" alt="Ancient Shoot Gun" width="500" class="product-img hover" />
+
+                  <div class="showcase-actions">
+                    <button class="btn-action">
+                      <ion-icon name="heart-outline"></ion-icon>
+                    </button>
+
+                    <button class="btn-action">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </button>
+
+                    <button class="btn-action">
+                      <ion-icon name="repeat-outline"></ion-icon>
+                    </button>
+
+                    <button class="btn-action">
+                      <ion-icon name="bag-add-outline"></ion-icon>
+                    </button>
+                  </div>
+                </div>
+
+                <div class="showcase-content">
+                  <a href="#" class="showcase-category">art</a>
+
+
+
+                  <div class="showcase-rating">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star-outline"></ion-icon>
+                  </div>
+
+                  <div class="price-box">
+                    <p class="price">$50.00</p>
+
+                  </div>
+                </div>
+              </div>
+
+              <div class="showcase">
+                <div class="showcase-banner">
+
+                  <img src="./images/1.avif" alt="Ancient Shoot Gun" width="800" class="product-img default">
+
+                  <img src="./images/1.avif" alt="Ancient Shoot Gun" width="800" class="product-img hover" />
+
+
+
+                  <div class="showcase-actions">
+                    <button class="btn-action">
+                      <ion-icon name="heart-outline"></ion-icon>
+                    </button>
+
+                    <button class="btn-action">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </button>
+
+                    <button class="btn-action">
+                      <ion-icon name="repeat-outline"></ion-icon>
+                    </button>
+
+                    <button class="btn-action">
+                      <ion-icon name="bag-add-outline"></ion-icon>
+                    </button>
+                  </div>
+                </div>
+
+                <div class="showcase-content">
+                  <a href="#" class="showcase-category">art</a>
+
+
+
+                  <div class="showcase-rating">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star-outline"></ion-icon>
+                    <ion-icon name="star-outline"></ion-icon>
+                  </div>
+
+                  <div class="price-box">
+                    <p class="price">$78.00</p>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="footer">
+      <div class="footer-container">
+          
+      </div>
+      <div class="follow-us">
+          <h3>Follow US</h3>
+          <i class="fa-brands fa-square-facebook"></i>
+          <i class="fa-brands fa-instagram"></i>
+          <i class="fa-brands fa-linkedin"></i>
+          <i class="fa-brands fa-twitter"></i>
+      </div>
+      <div class="copyright">
+          <p>&#169 2023 ART Co-orporation</p>
+      </div>
+  </div>
+
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+
+</body>
+
+</html>

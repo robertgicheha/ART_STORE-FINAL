@@ -1,0 +1,5 @@
+CREATE PROCEDURE spDisplayAllFromOrders
+AS
+BEGIN
+    SELECT * FROM Orders
+END

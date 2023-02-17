@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ADD PRODUCT</title>
+    <link rel="stylesheet" href="productsForm.css">
+</head>
+
+<body>
+    <header>
+        <h1>Admin Dashboard</h1>
+      </header>
+    <div class="div_products">
+        <form id="add-product-form">
+            <h2>ADD PRODUCT</h2>
+
+            <label for="product-name">Product Name:</label>
+            <input type="text" name="product-name" id="product-name" required>
+
+            <label for="product-name">Description:</label>
+            <input type="text" name="description" id="product_description" required>
+
+            <label for="category">Category:</label>
+            <select name="category" id="prod_category">
+                <option value="electronics">Painting</option>
+                <option value="clothing">Photography</option>
+                <option value="home">Sculpture</option>
+            </select>
+
+            <label for="price">Price:</label>
+            <input type="number" name="price" id="prod_price" required>
+
+            <label for="product-name">Image URL:</label>
+            <input type="text" name="image url" id="productimage_url" required>
+
+
+    <button type="submit">Add Product</button>
+    <button onclick="location.href='admin.html';" type="close">Back</button>
+    </form>
+</div>
+</body>
+
+</html>

@@ -1,0 +1,110 @@
+
+GET http://localhost:4000/Products
+
+###
+
+POST http://localhost:4000/Products
+Content-Type: application/json
+
+{
+    "Name":"Painting-4",
+    "Description":"Another simple description",
+    "Category":"Painting",
+    "Price":"500",
+    "ImageUrl":"http://the-second-imageurl.url"
+}
+
+###
+
+GET http://localhost:4000/Products/a26b601b-613e-498f-a5dd-ebce34a6caba
+
+###
+
+PUT http://localhost:4000/Products/a26b601b-613e-498f-a5dd-ebce34a6caba
+Content-Type: application/json
+
+{
+  "Name": "uPDATED XAMP",
+  "Description": "uPDATES XPM",
+  "Category": "cATEGORY SErver",
+  "Price": 100,
+  "ImageUrl": "http://mommamissa.url"
+}
+
+###
+
+GET http://localhost:4000/Products/a26b601b-613e-498f-a5dd-ebce34a6caba
+
+###
+
+DELETE http://localhost:4000/Products/a26b601b-613e-498f-a5dd-ebce34a6caba
+
+###
+
+GET http://localhost:4000/cart
+
+
+
+###
+
+POST  http://localhost:4000/cart
+Content-Type: application/json
+
+  {
+    "productId": "11501f5b-c790-4214-9ac2-d9beeab9d229",
+    "userId": "1",
+    "quantity": 2
+  }
+
+###
+
+PUT http://localhost:4000/cart/
+Content-Type: application/json
+
+  {
+    "productId": "11501f5b-c790-4214-9ac2-d9beeab9d229",
+    "userId": "1"
+  }
+
+###
+
+GET http://localhost:4000/cart/
+
+###
+
+POST http://localhost:4000/orders
+Content-Type: application/json
+
+  {
+    "orderId": 3,
+    "orderStatus": "in-transit"
+  }
+
+###
+
+GET http://localhost:4000/orders
+
+###
+
+GET http://localhost:4000/orders/2
+
+###
+
+POST http://localhost:4000/users/register
+Content-Type: application/json
+
+{
+  "Name":"Ian-Kamande",
+  "Email":"iank@gmail.com",
+  "Password":"23WQ@west",
+  "ConfirmPassword":"23WQ@west"
+}
+
+
+###
+GET http://localhost:4000/users/allusers
+
+
+
+
+
